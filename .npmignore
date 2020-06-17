@@ -1,0 +1,10 @@
+.*.swp
+._*
+.DS_Store
+.git
+.hg
+.npmrc
+node_modules/
+src/
+publish.sh
+public/
