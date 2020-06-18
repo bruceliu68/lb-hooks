@@ -1,6 +1,6 @@
 {
   "name": "lb-hooks",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "react hooks组件",
   "main": "lib/index.js",
   "keywords": [
@@ -9,13 +9,18 @@
     "react-hooks",
     "lb-hooks"
   ],
+  "files": [
+    "lib",
+    "package.json",
+    "README.md"
+  ],
   "author": "",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lib": "npx babel src/components --out-dir lib --extensions '.ts'",
+    "lib": "npx babel src/components --out-dir hooks/lib --extensions '.ts'",
     "publish": "sh ./publish.sh"
   },
   "dependencies": {

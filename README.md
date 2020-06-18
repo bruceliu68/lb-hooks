@@ -9,7 +9,7 @@ import { Button, Switch } from 'antd';
 import { useToggle } from "lb-hooks";
 
 export default () => {
-    const { state, toggle } = useToggle();
+    const [state, { toggle }] = useToggle();
 
     return (
         <div>
