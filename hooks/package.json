@@ -1,6 +1,6 @@
 {
   "name": "lb-hooks",
-  "version": "0.0.6",
+  "version": "1.0.0",
   "description": "react hooks组件",
   "main": "lib/index.js",
   "keywords": [
@@ -9,6 +9,15 @@
     "react-hooks",
     "lb-hooks"
   ],
+  "dependencies": {
+    "resize-observer-polyfill": "^1.5.1",
+    "screenfull": "^5.0.2",
+    "resize-observer-polyfill": "^1.5.1",
+    "lodash.debounce": "^4.0.8",
+    "@types/lodash.debounce": "^4.0.6",
+    "lodash.throttle": "^4.1.1",
+    "@types/lodash.throttle": "^4.1.6"
+  },
   "author": "bruceliu",
   "license": "ISC",
   "browserslist": {

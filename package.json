@@ -20,7 +20,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lib": "npx babel src/components --out-dir hooks/lib --extensions '.ts'",
+    "lib": "sh ./lib.sh",
     "publish": "sh ./publish.sh"
   },
   "dependencies": {
@@ -28,17 +28,29 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "@types/jest": "^24.9.1",
+    "@types/lodash.debounce": "^4.0.6",
+    "@types/lodash.throttle": "^4.1.6",
     "@types/node": "^12.12.47",
     "@types/react": "^16.9.37",
     "@types/react-dom": "^16.9.8",
+    "ahooks": "^2.0.1",
+    "intersection-observer": "^0.11.0",
+    "lodash.debounce": "^4.0.8",
+    "lodash.throttle": "^4.1.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
+    "resize-observer-polyfill": "^1.5.1",
+    "screenfull": "^5.0.2",
     "typescript": "^3.7.5"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.1",
     "@babel/core": "^7.10.2",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/plugin-proposal-decorators": "^7.10.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.10.4",
+    "@babel/plugin-transform-classes": "^7.10.4",
     "@babel/preset-env": "^7.10.2",
     "@babel/preset-typescript": "^7.10.1"
   },
