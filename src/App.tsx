@@ -4,9 +4,12 @@ import './App.css';
 import UseToggleDemo from "./components/useToggle/demo";
 import UseLocalStorage from "./components/useLocalStorage/demo";
 import UseSessionStorage from "./components/useSessionStorage/demo";
+import UseHistoryTravel from "./components/useHistoryTravel/demo";
 // UI
 import UseDrop from "./components/useDrop/demo";
 import UseVirtualList from "./components/useVirtualList/demo";
+import UseDynamicList from "./components/useDynamicList/demo";
+import UseSelections from "./components/useSelections/demo";
 // Dom
 import UseSize from "./components/useSize/demo";
 import UseDocumentVisibility from "./components/useDocumentVisibility/demo";
@@ -74,9 +77,15 @@ function App() {
       <UseDrop />
       <h2>useVirtualList</h2>
       <UseVirtualList />
+      <h2>useDynamicList</h2>
+      <UseDynamicList />
+      <h2>useSelections</h2>
+      <UseSelections />
 
       {/* -------------State-------------- */}
       <h1>state</h1>
+      <h2>useHistoryTravel</h2>
+      <UseHistoryTravel />
       <h2>useToggle</h2>
       <UseToggleDemo />
       <h2>useLocalStorage</h2>

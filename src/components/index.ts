@@ -1,8 +1,11 @@
 import useToggle from "./useToggle";
 import useLocalStorage from "./useLocalStorage";
 import useSessionStorage from "./useSessionStorage";
+import useHistoryTravel from "./useHistoryTravel";
 import { useDrag, useDrop } from "./useDrop";
 import useVirtualList from "./useVirtualList";
+import useDynamicList from "./useDynamicList";
+import useSelections from "./useSelections";
 import useSize from "./useSize";
 import useDocumentVisibility from "./useDocumentVisibility";
 import useEventListener from "./useEventListener";
@@ -26,6 +29,8 @@ export {
     useDrag,
     useDrop,
     useVirtualList,
+    useDynamicList,
+    useSelections,
     useSize,
     useDocumentVisibility,
     useEventListener,
@@ -40,7 +45,8 @@ export {
     useDebounceFn,
     useDebounce,
     useThrottleFn,
-    useThrottle
+    useThrottle,
+    useHistoryTravel
 };
 
 
