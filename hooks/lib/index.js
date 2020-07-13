@@ -27,6 +27,12 @@ Object.defineProperty(exports, "useHistoryTravel", {
     return _useHistoryTravel.default;
   }
 });
+Object.defineProperty(exports, "useTitle", {
+  enumerable: true,
+  get: function get() {
+    return _useTitle.default;
+  }
+});
 Object.defineProperty(exports, "useDrag", {
   enumerable: true,
   get: function get() {
@@ -147,6 +153,12 @@ Object.defineProperty(exports, "useThrottle", {
     return _useThrottle.default;
   }
 });
+Object.defineProperty(exports, "useInterval", {
+  enumerable: true,
+  get: function get() {
+    return _useInterval.default;
+  }
+});
 
 var _useToggle = _interopRequireDefault(require("./useToggle"));
 
@@ -155,6 +167,8 @@ var _useLocalStorage = _interopRequireDefault(require("./useLocalStorage"));
 var _useSessionStorage = _interopRequireDefault(require("./useSessionStorage"));
 
 var _useHistoryTravel = _interopRequireDefault(require("./useHistoryTravel"));
+
+var _useTitle = _interopRequireDefault(require("./useTitle"));
 
 var _useDrop = require("./useDrop");
 
@@ -193,5 +207,7 @@ var _useDebounce = _interopRequireDefault(require("./useDebounce"));
 var _useThrottleFn = _interopRequireDefault(require("./useThrottleFn"));
 
 var _useThrottle = _interopRequireDefault(require("./useThrottle"));
+
+var _useInterval = _interopRequireDefault(require("./useInterval"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }

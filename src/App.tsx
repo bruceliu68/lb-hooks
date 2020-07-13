@@ -5,6 +5,7 @@ import UseToggleDemo from "./components/useToggle/demo";
 import UseLocalStorage from "./components/useLocalStorage/demo";
 import UseSessionStorage from "./components/useSessionStorage/demo";
 import UseHistoryTravel from "./components/useHistoryTravel/demo";
+import UseTitle from "./components/useTitle/demo";
 // UI
 import UseDrop from "./components/useDrop/demo";
 import UseVirtualList from "./components/useVirtualList/demo";
@@ -28,6 +29,7 @@ import UseDebounceFn from "./components/useDebounceFn/demo";
 import UseDebounce from "./components/useDebounce/demo";
 import UseThrottleFn from "./components/useThrottleFn/demo";
 import UseThrottle from "./components/useThrottle/demo";
+import UseInterval from "./components/useInterval/demo";
 
 function App() {
   return (
@@ -42,6 +44,8 @@ function App() {
       <UseThrottleFn />
       <h2>useThrottle</h2>
       <UseThrottle />
+      <h2>useInterval</h2>
+      <UseInterval />
 
       {/* -------------Advanced-------------- */}
       <h1>Advanced</h1>
@@ -92,6 +96,8 @@ function App() {
       <UseLocalStorage />
       <h2>useSessionStorage</h2>
       <UseSessionStorage />
+      <h2>useTitle</h2>
+      <UseTitle />
     </div>
   );
 }

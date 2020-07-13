@@ -2,6 +2,7 @@ import useToggle from "./useToggle";
 import useLocalStorage from "./useLocalStorage";
 import useSessionStorage from "./useSessionStorage";
 import useHistoryTravel from "./useHistoryTravel";
+import useTitle from "./useTitle";
 import { useDrag, useDrop } from "./useDrop";
 import useVirtualList from "./useVirtualList";
 import useDynamicList from "./useDynamicList";
@@ -21,11 +22,14 @@ import useDebounceFn from "./useDebounceFn";
 import useDebounce from "./useDebounce";
 import useThrottleFn from "./useThrottleFn";
 import useThrottle from "./useThrottle";
+import useInterval from "./useInterval";
 
 export {
     useToggle,
     useLocalStorage,
     useSessionStorage,
+    useHistoryTravel,
+    useTitle,
     useDrag,
     useDrop,
     useVirtualList,
@@ -46,7 +50,7 @@ export {
     useDebounce,
     useThrottleFn,
     useThrottle,
-    useHistoryTravel
+    useInterval
 };
 
 
