@@ -22,7 +22,7 @@ export default () => {
             <p style={{ marginTop: 16 }}> Clicked count: {value} </p>
             <button type="button" onClick={run}>
                 Click fast!
-        </button>
+            </button>
         </div>
     );
 };

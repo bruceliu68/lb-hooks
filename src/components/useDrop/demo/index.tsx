@@ -4,7 +4,8 @@
  */
 
 import React from 'react';
-import { useDrop, useDrag } from 'ahooks';
+import useDrop from '../../useDrop';
+import useDrag from "../../useDrag";
 
 export default () => {
     const getDragProps = useDrag();
