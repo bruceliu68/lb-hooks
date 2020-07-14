@@ -1,6 +1,6 @@
 {
   "name": "lb-hooks",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "react hooks组件",
   "main": "lib/index.js",
   "keywords": [
@@ -10,7 +10,7 @@
     "lb-hooks"
   ],
   "dependencies": {
-    "resize-observer-polyfill": "^1.5.1",
+    "intersection-observer": "^0.11.0",
     "screenfull": "^5.0.2",
     "resize-observer-polyfill": "^1.5.1",
     "lodash.debounce": "^4.0.8",

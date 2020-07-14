@@ -19,10 +19,10 @@ function Demo2(): JSX.Element {
                 onClick={() => setValue([...value, Math.random().toString(36).slice(-1)])}
             >
                 push random
-        </button>
+            </button>
             <button type="button" onClick={() => setValue(defaultArray)}>
                 reset
-        </button>
+            </button>
         </>
     );
 }
