@@ -6,6 +6,9 @@ import UseLocalStorage from "./components/useLocalStorage/demo";
 import UseSessionStorage from "./components/useSessionStorage/demo";
 import UseHistoryTravel from "./components/useHistoryTravel/demo";
 import UseTitle from "./components/useTitle/demo";
+import UseCopyToClipboard from "./components/useCopyToClipboard/demo";
+import UseFavicon from "./components/useFavicon/demo";
+import UseCookie from "./components/useCookie/demo";
 // UI
 import UseDrop from "./components/useDrop/demo";
 import UseVirtualList from "./components/useVirtualList/demo";
@@ -98,6 +101,12 @@ function App() {
       <UseSessionStorage />
       <h2>useTitle</h2>
       <UseTitle />
+      <h2>useCopyToClipboard</h2>
+      <UseCopyToClipboard />
+      <h2>useFavicon</h2>
+      <UseFavicon />
+      <h2>useCookie</h2>
+      <UseCookie />
     </div>
   );
 }
