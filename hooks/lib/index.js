@@ -33,16 +33,34 @@ Object.defineProperty(exports, "useTitle", {
     return _useTitle.default;
   }
 });
-Object.defineProperty(exports, "useDrag", {
+Object.defineProperty(exports, "useCopyToClipboard", {
   enumerable: true,
   get: function get() {
-    return _useDrop.useDrag;
+    return _useCopyToClipboard.default;
+  }
+});
+Object.defineProperty(exports, "useFavicon", {
+  enumerable: true,
+  get: function get() {
+    return _useFavicon.default;
+  }
+});
+Object.defineProperty(exports, "useCookie", {
+  enumerable: true,
+  get: function get() {
+    return _useCookie.default;
   }
 });
 Object.defineProperty(exports, "useDrop", {
   enumerable: true,
   get: function get() {
-    return _useDrop.useDrop;
+    return _useDrop.default;
+  }
+});
+Object.defineProperty(exports, "useDrag", {
+  enumerable: true,
+  get: function get() {
+    return _useDrag.default;
   }
 });
 Object.defineProperty(exports, "useVirtualList", {
@@ -170,7 +188,15 @@ var _useHistoryTravel = _interopRequireDefault(require("./useHistoryTravel"));
 
 var _useTitle = _interopRequireDefault(require("./useTitle"));
 
-var _useDrop = require("./useDrop");
+var _useCopyToClipboard = _interopRequireDefault(require("./useCopyToClipboard"));
+
+var _useFavicon = _interopRequireDefault(require("./useFavicon"));
+
+var _useCookie = _interopRequireDefault(require("./useCookie"));
+
+var _useDrop = _interopRequireDefault(require("./useDrop"));
+
+var _useDrag = _interopRequireDefault(require("./useDrag"));
 
 var _useVirtualList = _interopRequireDefault(require("./useVirtualList"));
 
